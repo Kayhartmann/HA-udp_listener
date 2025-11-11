@@ -1,0 +1,13 @@
+{
+  "domain": "udp_listener",
+  "name": "UDP Listener",
+  "version": "1.0.0",
+  "config_flow": true,
+  "documentation": "https://github.com/Kayhartmann/HA-udp_listener",
+  "issue_tracker": "https://github.com/Kayhartmann/HA-udp_listener/issues",
+  "requirements": [],
+  "codeowners": ["@Kayhartmann"],
+  "iot_class": "local_push",
+  "loggers": ["custom_components.udp_listener"],
+  "translations": ["translations"]
+}
