@@ -32,6 +32,14 @@ Kopieren Sie den `udp_listener` Ordner in Ihren `custom_components` Ordner.
 - Hashrate, Temperatur, Signalstärke
 - Betriebszeit, Shares, Schwierigkeit
 - Pool-Informationen, Version, etc.
+## Lizenz
 
+Diese Integration ist unter der MIT-Lizenz lizenziert - siehe [LICENSE](LICENSE) Datei für Details.
+
+## Danksagungen
+
+- Dank an die Home Assistant Community für die Unterstützung
+- Besonderer Dank an alle Tester und Beitragenden
+  
 ## Beitragen
 Fehler und Feature-Requests bitte auf [GitHub](https://github.com/Kayhartmann/HA-udp_listener/issues) melden.
