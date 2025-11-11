@@ -1,5 +1,9 @@
 # UDP Listener Home Assistant Integration
 
+> 🌐 Choose your language / Sprache wählen
+> - [English](README_En.md)
+> - [Deutsch](README.de.md)
+
 Receives UDP messages from miners and creates sensors.
 
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
