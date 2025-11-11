@@ -6,6 +6,7 @@
   "country": ["DE", "EN"],
   "domains": ["sensor"],
   "iot_class": "local_push",
-  "icon": "custom_components/udp_listener/icon.png",
-  "logo": "custom_components/udp_listener/logo.png"
+  "icon": "https://github.com/Kayhartmann/HA-udp_listener/blob/main/custom_components/udp_listener/icon.png",
+  "logo": "https://github.com/Kayhartmann/HA-udp_listener/blob/main/custom_components/udp_listener/logo.png"
 }
+
