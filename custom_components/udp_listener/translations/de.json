@@ -1,0 +1,48 @@
+{
+  "component": {
+    "udp_listener": {
+      "config": {
+        "step": {
+          "user": {
+            "title": "UDP Listener Konfiguration",
+            "description": "Richten Sie den UDP Listener ein, um Nachrichten von Geräten im Netzwerk zu empfangen",
+            "data": {
+              "port": "Port",
+              "update_interval": "Update-Intervall (Sekunden)"
+            }
+          }
+        },
+        "error": {
+          "invalid_port": "Port muss zwischen 1024 und 65535 liegen",
+          "invalid_interval": "Intervall muss zwischen 1 und 3600 Sekunden liegen"
+        },
+        "abort": {
+          "already_configured": "Bereits konfiguriert"
+        }
+      },
+      "device": {
+        "manufacturer": "Benutzerdefinierte UDP-Geräte"
+      },
+      "entity": {
+        "sensor": {
+          "bestdiff": { "name": "Beste Schwierigkeit" },
+          "boardtype": { "name": "Board-Typ" },
+          "freeheap": { "name": "Freier Heap-Speicher" },
+          "hashrate": { "name": "Hashrate" },
+          "ip": { "name": "IP-Adresse" },
+          "lastdiff": { "name": "Letzte Schwierigkeit" },
+          "netdiff": { "name": "Netzwerk-Schwierigkeit" },
+          "pooldiff": { "name": "Pool-Schwierigkeit" },
+          "poolinuse": { "name": "Aktiver Pool" },
+          "progress": { "name": "Fortschritt" },
+          "rssi": { "name": "Signalstärke (RSSI)" },
+          "share": { "name": "Shares" },
+          "temp": { "name": "Temperatur" },
+          "uptime": { "name": "Betriebszeit" },
+          "valid": { "name": "Gültige Shares" },
+          "version": { "name": "Version" }
+        }
+      }
+    }
+  }
+}

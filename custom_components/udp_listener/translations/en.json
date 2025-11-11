@@ -1,0 +1,48 @@
+{
+  "component": {
+    "udp_listener": {
+      "config": {
+        "step": {
+          "user": {
+            "title": "UDP Listener Configuration",
+            "description": "Set up the UDP Listener to receive messages from devices on the network",
+            "data": {
+              "port": "Port",
+              "update_interval": "Update Interval (seconds)"
+            }
+          }
+        },
+        "error": {
+          "invalid_port": "Port must be between 1024 and 65535",
+          "invalid_interval": "Interval must be between 1 and 3600 seconds"
+        },
+        "abort": {
+          "already_configured": "Already configured"
+        }
+      },
+      "device": {
+        "manufacturer": "Custom UDP Devices"
+      },
+      "entity": {
+        "sensor": {
+          "bestdiff": { "name": "Best Difficulty" },
+          "boardtype": { "name": "Board Type" },
+          "freeheap": { "name": "Free Heap Memory" },
+          "hashrate": { "name": "Hashrate" },
+          "ip": { "name": "IP Address" },
+          "lastdiff": { "name": "Last Difficulty" },
+          "netdiff": { "name": "Network Difficulty" },
+          "pooldiff": { "name": "Pool Difficulty" },
+          "poolinuse": { "name": "Active Pool" },
+          "progress": { "name": "Progress" },
+          "rssi": { "name": "Signal Strength (RSSI)" },
+          "share": { "name": "Shares" },
+          "temp": { "name": "Temperature" },
+          "uptime": { "name": "Uptime" },
+          "valid": { "name": "Valid Shares" },
+          "version": { "name": "Version" }
+        }
+      }
+    }
+  }
+}
